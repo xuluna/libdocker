@@ -13,3 +13,6 @@ target_link_libraries(
     ${PROJECT_NAME}
     curl
 )
+
+install(TARGETS ${PROJECT_NAME} LIBRARY DESTINATION lib)
+install(FILES src/docker.h DESTINATION include)
