@@ -14,5 +14,5 @@ target_link_libraries(
     curl
 )
 
-install(TARGETS ${PROJECT_NAME} LIBRARY DESTINATION lib)
+install(TARGETS ${PROJECT_NAME} ARCHIVE DESTINATION lib)
 install(FILES src/docker.h DESTINATION include)
